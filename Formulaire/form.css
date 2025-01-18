@@ -1,0 +1,64 @@
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+.incorrect {
+    border: 1px solid rgb(150, 2, 2);
+    background-color: rgba(212, 0, 0, 0.4);
+}
+.message-error.visible {
+    display: block;
+}
+body {
+    color: black;
+    background: white;
+}
+form {
+    margin-top: 15px;
+    border-style: solid;
+    padding: 10px;
+}
+.errorContainer {
+    border-color: rgb(150, 2, 2);
+    background-color: rgba(212, 0, 0, 0.4);
+    margin-top: 15px;
+    border-style: solid;
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+}
+.successContainer {
+    border-color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    margin-top: 15px;
+    border-style: solid;
+    padding: 10px;
+    list-style-type: none;
+    display: none;
+}
+.visible {
+    display: block;
+}
+.align {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.tab {
+    margin-left: 15px;
+    margin-right: 15px;
+    border-style: solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tab-active {
+    background-color: rgba(120, 120, 120, 0.7);
+}
+.content {
+    display: none;
+}
+.active {
+    display: block;
+}
